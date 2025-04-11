@@ -51,13 +51,13 @@ Student("S103", "Charlie Brown", "Mechanical Engineering")
 
 
 while True:
-    print("------ Student Management System ------")
+    print("------ Student Management Menu ------")
     print("1. View All Students")
     print("2. Enroll Student")
     print("3. Drop Student")
     print("4. Exit")
 
-    choice = input("Enter your choice: ")
+    choice = input("Enter your choice(1-4): ")
 
     if choice == '1':
         students = StudentDatabase.get_all_students()
